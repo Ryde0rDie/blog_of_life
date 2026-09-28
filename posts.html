@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RetroBoard // Posts</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="topbar"><div class="topbar-inner">
+    <a class="brand" href="index.html">RETROBOARD</a><span class="slash">//</span><span class="tagline">archive</span>
+    <nav><a href="index.html">home</a><a class="active" href="posts.html">posts</a><a href="about.html">about</a></nav>
+  </div></div>
+
+  <main class="page narrow">
+    <p class="crumb">/posts/</p>
+    <div class="archive-title"><div><h1>Post archive</h1><p>All transmissions, roughly chronological.</p></div>
+      <input id="search" type="search" placeholder="search posts...">
+    </div>
+    <div class="filter-row">
+      <button data-cat="all" class="selected">all</button><button data-cat="code">code</button><button data-cat="games">games</button><button data-cat="manga">manga</button><button data-cat="web">web</button><button data-cat="life">life</button>
+    </div>
+    <div id="archive"></div>
+  </main>
+  <footer><span>RETROBOARD © 2008–2026</span><span>NO COOKIES. NO FEED. JUST POSTS.</span></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
