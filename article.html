@@ -131,7 +131,7 @@
             </a>
 
             <span>
-                27 replies
+                replies
             </span>
 
         </div>
@@ -147,77 +147,32 @@
 
                 <h2>REPLIES</h2>
 
-                <span id="comment-count">
-                    Loading...
-                </span>
-
             </div>
 
 
-            <div class="reply-box">
+            <div class="giscus-container">
 
-                <div class="reply-title">
-                    POST A REPLY
-                </div>
+                <script src="https://giscus.app/client.js"
+                        data-repo="Ryde0rDie/blog_of_life"
+                        data-repo-id="R_kgDOUwPSHQ"
+                        data-category="General"
+                        data-category-id="DIC_kwDOUwPSHc4DGnxv"
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="bottom"
+                        data-theme="noborder_gray"
+                        data-lang="en"
+                        crossorigin="anonymous"
+                        async>
+                </script>
 
-
-                <form id="comment-form">
-
-                    <label for="comment-name">
-                        Name
-                    </label>
-
-                    <input
-                        type="text"
-                        id="comment-name"
-                        maxlength="30"
-                        placeholder="Anonymous"
-                        autocomplete="nickname"
-                    >
-
-
-                    <label for="comment-content">
-                        Comment
-                    </label>
-
-                    <textarea
-                        id="comment-content"
-                        maxlength="2000"
-                        rows="6"
-                        placeholder="Write your reply..."
-                        required
-                    ></textarea>
-
-
-                    <div class="reply-bottom">
-
-                        <span id="comment-status"></span>
-
-                        <button type="submit">
-                            POST REPLY
-                        </button>
-
-                    </div>
-
-                </form>
-
-            </div>
-
-
-            <div id="comments-list">
-                Loading replies...
             </div>
 
         </section>
 
     </main>
-
-
-    <!-- Article identifier used by Supabase -->
-
-    <script>
-        window.ARTICLE_ID = "133742";
-    </script>
 
 
     <script src="assets/app.js"></script>
